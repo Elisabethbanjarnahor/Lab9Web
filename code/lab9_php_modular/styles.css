@@ -1,0 +1,146 @@
+/* Style dasar */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #ffe6f2; /* pink pastel */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    background: #fff;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.2); /* pink shadow */
+}
+
+/* Header */
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color: #d63384; /* pink bold */
+    font-weight: 600;
+}
+
+/* Navigation */
+nav {
+    background: #ff7eb9; /* pink terang */
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.35);
+}
+
+/* Content */
+.content h2 {
+    color: #d63384; /* pink bold */
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #a8688b;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background: #ff7eb9;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #f7c2d4;
+    background: #fff5fa;
+    color: #a64d79;
+}
+
+table img {
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(255,105,180,0.25);
+}
+
+/* Tombol tambah */
+.btn-tambah {
+    display: inline-block;
+    background: #ff85c1;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.btn-tambah:hover {
+    background: #ff5ba8;
+}
+
+/* Form input */
+form label {
+    font-weight: bold;
+    color: #d63384;
+}
+
+form input,
+form select {
+    padding: 10px;
+    width: 320px;
+    max-width: 100%;
+    border: 1px solid #f7c2d4;
+    border-radius: 6px;
+    background: #fff0f7;
+    color: #b3537a;
+}
+
+form input:focus,
+form select:focus {
+    outline: none;
+    border-color: #ff66b3;
+    box-shadow: 0 0 6px rgba(255,105,180,0.4);
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background: #ff66b3;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+button:hover {
+    background: #ff408f;
+}
